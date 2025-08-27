@@ -1,0 +1,134 @@
+.pricing-overview {
+  background-color: #04595a;
+  border-bottom: 1px solid #e4ebf3;
+  padding: 80px 6%;
+  position: relative;
+}
+
+.container {
+  background-color: #f2ddcf;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+.centered-heading {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.pricing-description {
+  text-align: center;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricing-grid {
+  grid-column-gap: 64px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-top: 50px;
+  display: grid;
+}
+
+.pricing-card-three {
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.pricing-image {
+  object-fit: cover;
+  border-radius: 4px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 16px;
+}
+
+.pricing-card-text {
+  margin-bottom: 20px;
+}
+
+.text-link-arrow {
+  color: #1a1b1f;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  display: flex;
+}
+
+.arrow-embed {
+  margin-left: 2px;
+  display: flex;
+}
+
+.container-2 {
+  background-color: #d1ffbc;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 728px;
+  }
+
+  .pricing-grid {
+    grid-column-gap: 30px;
+  }
+
+  .container-2 {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pricing-overview {
+    padding: 60px 15px;
+  }
+
+  .pricing-grid {
+    flex-flow: column;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+    max-width: none;
+    padding: 24px;
+  }
+
+  .centered-heading {
+    margin-bottom: 24px;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .container-2 {
+    max-width: none;
+    padding: 24px;
+  }
+}
+
+#w-node-d94b58f3-75b8-2a40-a0ae-209e29a30fdb-808cb140, #w-node-d94b58f3-75b8-2a40-a0ae-209e29a30fe5-808cb140, #w-node-d94b58f3-75b8-2a40-a0ae-209e29a30fef-808cb140, #w-node-_5213e263-ea5c-41e7-a5a1-284a32a4c5f5-808cb140, #w-node-_5213e263-ea5c-41e7-a5a1-284a32a4c5ff-808cb140, #w-node-_5213e263-ea5c-41e7-a5a1-284a32a4c609-808cb140 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+
