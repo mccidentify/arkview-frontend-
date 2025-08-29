@@ -76,6 +76,8 @@ h2 {
   border-bottom: 1px solid #898989;
   grid-template-rows: auto;
   grid-template-columns: .75fr 1.25fr;
+  padding-left: 6%;
+  padding-right: 6%;
   position: relative;
 }
 
@@ -491,6 +493,17 @@ h2 {
   text-align: center;
   background-color: #0da3b4;
   width: 100%;
+}
+
+.div-block-22 {
+  padding-top: 60px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.x-padding {
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 @media screen and (max-width: 991px) {
